@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0"/>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4"/>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <main name="74247"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="74247">
+    <a name="circuit" val="74247"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <polyline fill="none" points="210,60 339,60" stroke="#000000" stroke-width="2"/>
+      <rect fill="none" height="290" stroke="#000000" stroke-width="2" width="180" x="210" y="30"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="301" y="45">BIN/7-SEG</text>
+      <polyline fill="none" points="441,310 392,310" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="411,310 391,304" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="344" y="310">g  20,21</text>
+      <polyline fill="none" points="441,290 392,290" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="344" y="290">f  20,21</text>
+      <polyline fill="none" points="411,290 391,284" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="440,270 391,270" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="343" y="270">e  20,21</text>
+      <polyline fill="none" points="410,270 390,264" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="441,250 392,250" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="344" y="250">d  20,21</text>
+      <polyline fill="none" points="411,250 391,244" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="441,230 392,230" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="344" y="230">c  20,21</text>
+      <polyline fill="none" points="411,230 391,224" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="441,210 392,210" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="344" y="210">b  20,21</text>
+      <polyline fill="none" points="411,210 391,204" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="441,190 392,190" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="344" y="190">a  20,21</text>
+      <polyline fill="none" points="411,190 391,184" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="339,61 339,171" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="209,300 160,300" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="209,281 160,281" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="209,260 160,260" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="209,240 160,240" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="339,171 269,171" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="209,80 141,80" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="209,120 141,120" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="209,79 189,73" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="189,73 189,80" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="176,80 176,100" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="176,100 210,100" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="189,100 210,93" stroke="#000000" stroke-width="2"/>
+      <ellipse cx="176.0" cy="80.5" rx="3.0" ry="2.5" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="210,110 300,110" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="267,151 267,171" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="267,150 211,150" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="301,171 301,110" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="209,140 140,140" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="177,140 177,190" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="177,191 209,191" stroke="#000000" stroke-width="2"/>
+      <ellipse cx="177.0" cy="139.5" rx="3.0" ry="2.5" stroke="#000000" stroke-width="2"/>
+      <ellipse cx="339.0" cy="109.5" fill="#fcfcfc" rx="3.0" ry="2.5" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="362" y="113">G21</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="257" y="123">&amp;</text>
+      <polyline fill="none" points="208,119 188,113" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="188,113 188,120" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="208,190 188,184" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="188,184 188,191" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="220" y="242">1</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="220" y="263">2</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="220" y="284">4</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="220" y="304">8</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="225" y="194">V20</text>
+      <polygon points="158,76 165,80 158,84" stroke="#000000"/>
+      <polygon points="154,76 147,80 154,84" stroke="#000000"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="105" y="77">BI/RBO</text>
+      <polyline fill="none" points="85,65 97,65" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="104,65 122,65" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="115" y="117">RBI</text>
+      <polyline fill="none" points="105,105 123,105" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="118" y="137">LT</text>
+      <polyline fill="none" points="111,125 123,125" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="140" y="235">A</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="140" y="254">B</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="140" y="275">C</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="140" y="294">D</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="276" y="74">&gt; 1</text>
+      <polyline fill="none" points="269,74 273,72" stroke="#000000"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="245" y="166">CT=0</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="459" y="185">a</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="459" y="205">b</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="459" y="225">c</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="459" y="245">d</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="460" y="265">e</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="460" y="285">f</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="460" y="305">g</text>
+      <polygon fill="none" points="220,95 225,90 230,95 225,100" stroke="#000000"/>
+      <polyline fill="none" points="221,100 230,100" stroke="#000000"/>
+      <polygon fill="none" points="370,185 375,180 380,185 375,190" stroke="#000000"/>
+      <polyline fill="none" points="370,190 379,190" stroke="#000000"/>
+      <polyline fill="none" points="370,210 379,210" stroke="#000000"/>
+      <polygon fill="none" points="370,205 375,200 380,205 375,210" stroke="#000000"/>
+      <polyline fill="none" points="371,230 380,230" stroke="#000000"/>
+      <polygon fill="none" points="370,225 375,220 380,225 375,230" stroke="#000000"/>
+      <polyline fill="none" points="371,250 380,250" stroke="#000000"/>
+      <polygon fill="none" points="370,245 375,240 380,245 375,250" stroke="#000000"/>
+      <polyline fill="none" points="371,270 380,270" stroke="#000000"/>
+      <polygon fill="none" points="370,265 375,260 380,265 375,270" stroke="#000000"/>
+      <polygon fill="none" points="370,285 375,280 380,285 375,290" stroke="#000000"/>
+      <polyline fill="none" points="370,290 379,290" stroke="#000000"/>
+      <polygon fill="none" points="370,305 375,300 380,305 375,310" stroke="#000000"/>
+      <polyline fill="none" points="370,310 379,310" stroke="#000000"/>
+      <polyline fill="none" points="221,95 229,95" stroke="#000000"/>
+      <polygon fill="none" points="336,37 336,46 344,41" stroke="#000000"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="150" y="67">(4)</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="151" y="110">(5)</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="152" y="134">(3)</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="174" y="233">(7)</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="174" y="254">(1)</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="174" y="274">(2)</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="174" y="294">(6)</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="419" y="184">(13)</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="419" y="205">(12)</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="420" y="224">(11)</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="421" y="244">(10)</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="421" y="265">(9)</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="422" y="285">(15)</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="422" y="305">(14)</text>
+      <circ-port height="8" pin="200,240" width="8" x="156" y="236"/>
+      <circ-port height="8" pin="200,400" width="8" x="156" y="256"/>
+      <circ-port height="8" pin="200,540" width="8" x="156" y="276"/>
+      <circ-port height="8" pin="200,700" width="8" x="156" y="296"/>
+      <circ-port height="8" pin="200,850" width="8" x="136" y="76"/>
+      <circ-port height="8" pin="200,1050" width="8" x="136" y="136"/>
+      <circ-port height="8" pin="200,1190" width="8" x="136" y="116"/>
+      <circ-port height="10" pin="1130,170" width="10" x="435" y="185"/>
+      <circ-port height="10" pin="1130,380" width="10" x="435" y="205"/>
+      <circ-port height="10" pin="1130,550" width="10" x="435" y="225"/>
+      <circ-port height="10" pin="1130,730" width="10" x="435" y="245"/>
+      <circ-port height="10" pin="1130,880" width="10" x="435" y="265"/>
+      <circ-port height="10" pin="1130,1050" width="10" x="435" y="285"/>
+      <circ-port height="10" pin="1130,1220" width="10" x="435" y="305"/>
+      <circ-anchor facing="east" height="6" width="6" x="437" y="187"/>
+    </appear>
+    <wire from="(1060,730)" to="(1130,730)"/>
+    <wire from="(400,920)" to="(400,1040)"/>
+    <wire from="(840,190)" to="(940,190)"/>
+    <wire from="(1000,730)" to="(1030,730)"/>
+    <wire from="(710,400)" to="(790,400)"/>
+    <wire from="(730,1070)" to="(730,1120)"/>
+    <wire from="(670,1030)" to="(670,1190)"/>
+    <wire from="(710,750)" to="(710,820)"/>
+    <wire from="(490,620)" to="(710,620)"/>
+    <wire from="(840,980)" to="(840,1030)"/>
+    <wire from="(380,560)" to="(400,560)"/>
+    <wire from="(400,1040)" to="(770,1040)"/>
+    <wire from="(840,1070)" to="(940,1070)"/>
+    <wire from="(200,540)" to="(320,540)"/>
+    <wire from="(770,1040)" to="(770,1140)"/>
+    <wire from="(840,900)" to="(940,900)"/>
+    <wire from="(280,280)" to="(320,280)"/>
+    <wire from="(710,930)" to="(790,930)"/>
+    <wire from="(400,700)" to="(770,700)"/>
+    <wire from="(690,890)" to="(690,970)"/>
+    <wire from="(670,800)" to="(670,1000)"/>
+    <wire from="(280,280)" to="(280,440)"/>
+    <wire from="(670,800)" to="(790,800)"/>
+    <wire from="(730,1010)" to="(730,1070)"/>
+    <wire from="(400,320)" to="(430,320)"/>
+    <wire from="(710,750)" to="(790,750)"/>
+    <wire from="(840,570)" to="(940,570)"/>
+    <wire from="(650,430)" to="(790,430)"/>
+    <wire from="(650,150)" to="(650,260)"/>
+    <wire from="(1000,880)" to="(1030,880)"/>
+    <wire from="(280,940)" to="(330,940)"/>
+    <wire from="(770,1270)" to="(790,1270)"/>
+    <wire from="(730,610)" to="(790,610)"/>
+    <wire from="(630,360)" to="(790,360)"/>
+    <wire from="(410,640)" to="(430,640)"/>
+    <wire from="(840,360)" to="(940,360)"/>
+    <wire from="(630,220)" to="(790,220)"/>
+    <wire from="(690,650)" to="(690,730)"/>
+    <wire from="(690,730)" to="(690,890)"/>
+    <wire from="(840,750)" to="(940,750)"/>
+    <wire from="(710,1210)" to="(790,1210)"/>
+    <wire from="(670,590)" to="(670,800)"/>
+    <wire from="(770,700)" to="(770,1040)"/>
+    <wire from="(770,680)" to="(770,700)"/>
+    <wire from="(690,230)" to="(690,380)"/>
+    <wire from="(650,710)" to="(790,710)"/>
+    <wire from="(400,470)" to="(430,470)"/>
+    <wire from="(350,700)" to="(400,700)"/>
+    <wire from="(770,260)" to="(770,680)"/>
+    <wire from="(410,640)" to="(410,790)"/>
+    <wire from="(390,920)" to="(390,1120)"/>
+    <wire from="(840,1050)" to="(940,1050)"/>
+    <wire from="(400,260)" to="(400,320)"/>
+    <wire from="(690,380)" to="(790,380)"/>
+    <wire from="(670,290)" to="(790,290)"/>
+    <wire from="(1060,1050)" to="(1130,1050)"/>
+    <wire from="(400,420)" to="(400,470)"/>
+    <wire from="(710,500)" to="(710,620)"/>
+    <wire from="(200,850)" to="(200,860)"/>
+    <wire from="(840,710)" to="(940,710)"/>
+    <wire from="(440,940)" to="(650,940)"/>
+    <wire from="(840,570)" to="(840,590)"/>
+    <wire from="(730,1250)" to="(790,1250)"/>
+    <wire from="(840,380)" to="(940,380)"/>
+    <wire from="(1060,550)" to="(1130,550)"/>
+    <wire from="(750,120)" to="(790,120)"/>
+    <wire from="(690,380)" to="(690,420)"/>
+    <wire from="(690,230)" to="(790,230)"/>
+    <wire from="(730,610)" to="(730,670)"/>
+    <wire from="(630,1100)" to="(790,1100)"/>
+    <wire from="(670,1000)" to="(670,1030)"/>
+    <wire from="(840,170)" to="(940,170)"/>
+    <wire from="(630,780)" to="(790,780)"/>
+    <wire from="(380,920)" to="(380,940)"/>
+    <wire from="(730,250)" to="(790,250)"/>
+    <wire from="(650,150)" to="(790,150)"/>
+    <wire from="(840,400)" to="(840,450)"/>
+    <wire from="(690,890)" to="(790,890)"/>
+    <wire from="(630,220)" to="(630,340)"/>
+    <wire from="(200,1190)" to="(390,1190)"/>
+    <wire from="(820,860)" to="(940,860)"/>
+    <wire from="(710,820)" to="(710,930)"/>
+    <wire from="(840,520)" to="(840,530)"/>
+    <wire from="(630,1100)" to="(630,1170)"/>
+    <wire from="(690,420)" to="(690,650)"/>
+    <wire from="(750,540)" to="(750,770)"/>
+    <wire from="(410,360)" to="(430,360)"/>
+    <wire from="(380,260)" to="(400,260)"/>
+    <wire from="(670,1000)" to="(790,1000)"/>
+    <wire from="(840,100)" to="(840,150)"/>
+    <wire from="(690,650)" to="(790,650)"/>
+    <wire from="(390,1150)" to="(390,1190)"/>
+    <wire from="(1000,170)" to="(1030,170)"/>
+    <wire from="(410,360)" to="(410,510)"/>
+    <wire from="(670,1190)" to="(790,1190)"/>
+    <wire from="(410,510)" to="(410,640)"/>
+    <wire from="(750,120)" to="(750,330)"/>
+    <wire from="(1000,1050)" to="(1030,1050)"/>
+    <wire from="(1060,380)" to="(1130,380)"/>
+    <wire from="(400,560)" to="(730,560)"/>
+    <wire from="(630,780)" to="(630,860)"/>
+    <wire from="(690,170)" to="(690,230)"/>
+    <wire from="(840,1200)" to="(940,1200)"/>
+    <wire from="(200,240)" to="(320,240)"/>
+    <wire from="(1060,170)" to="(1130,170)"/>
+    <wire from="(650,570)" to="(790,570)"/>
+    <wire from="(710,470)" to="(710,500)"/>
+    <wire from="(400,260)" to="(650,260)"/>
+    <wire from="(630,1170)" to="(790,1170)"/>
+    <wire from="(1060,1220)" to="(1130,1220)"/>
+    <wire from="(710,930)" to="(710,1210)"/>
+    <wire from="(730,250)" to="(730,560)"/>
+    <wire from="(630,860)" to="(630,960)"/>
+    <wire from="(770,1140)" to="(770,1270)"/>
+    <wire from="(410,510)" to="(430,510)"/>
+    <wire from="(280,1280)" to="(790,1280)"/>
+    <wire from="(430,970)" to="(690,970)"/>
+    <wire from="(670,80)" to="(670,290)"/>
+    <wire from="(670,590)" to="(790,590)"/>
+    <wire from="(490,490)" to="(670,490)"/>
+    <wire from="(1000,380)" to="(1030,380)"/>
+    <wire from="(630,340)" to="(630,360)"/>
+    <wire from="(630,640)" to="(790,640)"/>
+    <wire from="(770,260)" to="(790,260)"/>
+    <wire from="(420,1010)" to="(730,1010)"/>
+    <wire from="(400,750)" to="(430,750)"/>
+    <wire from="(200,850)" to="(410,850)"/>
+    <wire from="(410,790)" to="(430,790)"/>
+    <wire from="(710,620)" to="(710,750)"/>
+    <wire from="(710,470)" to="(790,470)"/>
+    <wire from="(200,700)" to="(320,700)"/>
+    <wire from="(840,1190)" to="(840,1200)"/>
+    <wire from="(840,190)" to="(840,240)"/>
+    <wire from="(400,700)" to="(400,750)"/>
+    <wire from="(410,840)" to="(410,850)"/>
+    <wire from="(750,540)" to="(790,540)"/>
+    <wire from="(840,1240)" to="(840,1260)"/>
+    <wire from="(200,400)" to="(320,400)"/>
+    <wire from="(840,750)" to="(840,800)"/>
+    <wire from="(330,940)" to="(380,940)"/>
+    <wire from="(840,310)" to="(840,360)"/>
+    <wire from="(730,1120)" to="(730,1250)"/>
+    <wire from="(840,730)" to="(940,730)"/>
+    <wire from="(1000,1220)" to="(1030,1220)"/>
+    <wire from="(710,820)" to="(790,820)"/>
+    <wire from="(840,900)" to="(840,910)"/>
+    <wire from="(840,400)" to="(940,400)"/>
+    <wire from="(490,340)" to="(630,340)"/>
+    <wire from="(200,1050)" to="(330,1050)"/>
+    <wire from="(630,960)" to="(790,960)"/>
+    <wire from="(400,420)" to="(690,420)"/>
+    <wire from="(650,430)" to="(650,570)"/>
+    <wire from="(280,440)" to="(280,580)"/>
+    <wire from="(670,450)" to="(670,490)"/>
+    <wire from="(630,640)" to="(630,780)"/>
+    <wire from="(490,770)" to="(750,770)"/>
+    <wire from="(670,1030)" to="(790,1030)"/>
+    <wire from="(630,960)" to="(630,1100)"/>
+    <wire from="(630,860)" to="(800,860)"/>
+    <wire from="(750,330)" to="(790,330)"/>
+    <wire from="(670,290)" to="(670,450)"/>
+    <wire from="(670,490)" to="(670,590)"/>
+    <wire from="(770,680)" to="(790,680)"/>
+    <wire from="(840,1240)" to="(940,1240)"/>
+    <wire from="(770,1140)" to="(790,1140)"/>
+    <wire from="(690,730)" to="(790,730)"/>
+    <wire from="(440,920)" to="(440,940)"/>
+    <wire from="(840,1070)" to="(840,1120)"/>
+    <wire from="(400,560)" to="(400,600)"/>
+    <wire from="(330,940)" to="(330,970)"/>
+    <wire from="(280,580)" to="(320,580)"/>
+    <wire from="(430,920)" to="(430,970)"/>
+    <wire from="(710,190)" to="(710,400)"/>
+    <wire from="(410,790)" to="(410,820)"/>
+    <wire from="(650,710)" to="(650,940)"/>
+    <wire from="(690,170)" to="(790,170)"/>
+    <wire from="(410,850)" to="(410,860)"/>
+    <wire from="(750,330)" to="(750,540)"/>
+    <wire from="(380,420)" to="(400,420)"/>
+    <wire from="(330,990)" to="(330,1050)"/>
+    <wire from="(400,600)" to="(430,600)"/>
+    <wire from="(710,500)" to="(790,500)"/>
+    <wire from="(690,970)" to="(690,1240)"/>
+    <wire from="(730,670)" to="(730,1010)"/>
+    <wire from="(840,1030)" to="(940,1030)"/>
+    <wire from="(420,920)" to="(420,1010)"/>
+    <wire from="(280,940)" to="(280,1280)"/>
+    <wire from="(670,450)" to="(790,450)"/>
+    <wire from="(280,580)" to="(280,940)"/>
+    <wire from="(730,560)" to="(730,610)"/>
+    <wire from="(730,670)" to="(790,670)"/>
+    <wire from="(630,360)" to="(630,640)"/>
+    <wire from="(670,80)" to="(790,80)"/>
+    <wire from="(730,1070)" to="(790,1070)"/>
+    <wire from="(710,400)" to="(710,470)"/>
+    <wire from="(690,1240)" to="(790,1240)"/>
+    <wire from="(710,190)" to="(790,190)"/>
+    <wire from="(840,530)" to="(940,530)"/>
+    <wire from="(840,660)" to="(840,710)"/>
+    <wire from="(280,440)" to="(320,440)"/>
+    <wire from="(840,150)" to="(940,150)"/>
+    <wire from="(650,260)" to="(650,430)"/>
+    <wire from="(650,570)" to="(650,710)"/>
+    <wire from="(730,1120)" to="(790,1120)"/>
+    <wire from="(1000,550)" to="(1030,550)"/>
+    <wire from="(1060,880)" to="(1130,880)"/>
+    <comp lib="0" loc="(200,240)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Input A"/>
+    </comp>
+    <comp lib="1" loc="(840,450)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(1000,170)" name="NOR Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(350,700)" name="NOT Gate"/>
+    <comp lib="1" loc="(840,1260)" name="AND Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(1060,380)" name="NOT Gate"/>
+    <comp lib="1" loc="(490,340)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(200,850)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="BI / RBO"/>
+    </comp>
+    <comp lib="1" loc="(1060,550)" name="NOT Gate"/>
+    <comp lib="1" loc="(380,260)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1060,1220)" name="NOT Gate"/>
+    <comp lib="0" loc="(200,400)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Input B"/>
+    </comp>
+    <comp lib="0" loc="(1130,730)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Output d"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(840,520)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(410,860)" name="NAND Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="6"/>
+    </comp>
+    <comp lib="0" loc="(1130,380)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Output b"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1130,170)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Output a"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1130,1050)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Output f"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(840,100)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(840,800)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(1130,550)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Output c"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(330,970)" name="Buffer">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(490,490)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1130,880)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Output e"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(840,1190)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(840,240)" name="AND Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(840,590)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(840,980)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1000,880)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(380,560)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(200,540)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Input C"/>
+    </comp>
+    <comp lib="1" loc="(390,1120)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(200,1050)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="LT"/>
+    </comp>
+    <comp lib="1" loc="(840,310)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(490,770)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(490,620)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(840,730)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(840,910)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(840,380)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(1060,1050)" name="NOT Gate"/>
+    <comp lib="1" loc="(1000,380)" name="NOR Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(1060,880)" name="NOT Gate"/>
+    <comp lib="1" loc="(1060,170)" name="NOT Gate"/>
+    <comp lib="1" loc="(380,420)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1000,1050)" name="NOR Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(1000,550)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1000,730)" name="NOR Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(840,170)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(840,1120)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(410,820)" name="Buffer">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(840,660)" name="AND Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="0" loc="(1130,1220)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Output g"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(200,1190)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="RBI"/>
+    </comp>
+    <comp lib="1" loc="(1000,1220)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(820,860)" name="Buffer"/>
+    <comp lib="0" loc="(200,700)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Input D"/>
+    </comp>
+    <comp lib="1" loc="(840,1050)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1060,730)" name="NOT Gate"/>
+  </circuit>
+  <circuit name="74248">
+    <a name="circuit" val="74248"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <ellipse cx="177.0" cy="139.5" rx="3.0" ry="2.5" stroke="#000000" stroke-width="2"/>
+      <rect fill="none" height="290" stroke="#000000" stroke-width="2" width="180" x="210" y="30"/>
+      <polyline fill="none" points="209,240 160,240" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="209,260 160,260" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="177,140 177,190" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="111,125 123,125" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="177,191 209,191" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="209,281 160,281" stroke="#000000" stroke-width="2"/>
+      <polygon points="154,76 147,80 154,84" stroke="#000000"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="245" y="166">CT=0</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="421" y="265">(9)</text>
+      <polyline fill="none" points="208,119 188,113" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="152" y="134">(3)</text>
+      <polyline fill="none" points="105,105 123,105" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="269,74 273,72" stroke="#000000"/>
+      <polyline fill="none" points="188,113 188,120" stroke="#000000" stroke-width="2"/>
+      <ellipse cx="339.0" cy="109.5" fill="#fcfcfc" rx="3.0" ry="2.5" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="441,230 392,230" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="301" y="45">BIN/7-SEG</text>
+      <polyline fill="none" points="441,210 392,210" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="441,290 392,290" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="344" y="190">a  20,21</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="344" y="250">d  20,21</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="174" y="274">(2)</text>
+      <polyline fill="none" points="267,151 267,171" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="189,100 210,93" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="344" y="290">f  20,21</text>
+      <polyline fill="none" points="221,95 229,95" stroke="#000000"/>
+      <polyline fill="none" points="210,110 300,110" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="140" y="275">C</text>
+      <polyline fill="none" points="339,171 269,171" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="267,150 211,150" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="209,80 141,80" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="421" y="244">(10)</text>
+      <polyline fill="none" points="176,80 176,100" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="440,270 391,270" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="209,120 141,120" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="209,140 140,140" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="140" y="294">D</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="115" y="117">RBI</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="419" y="184">(13)</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="460" y="305">g</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="140" y="254">B</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="460" y="265">e</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="225" y="194">V20</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="140" y="235">A</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="220" y="242">1</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="276" y="74">&gt; 1</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="174" y="233">(7)</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="343" y="270">e  20,21</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="422" y="285">(15)</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="344" y="210">b  20,21</text>
+      <polyline fill="none" points="210,60 339,60" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="459" y="185">a</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="257" y="123">&amp;</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="174" y="294">(6)</text>
+      <polyline fill="none" points="188,184 188,191" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="460" y="285">f</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="105" y="77">BI/RBO</text>
+      <polyline fill="none" points="209,79 189,73" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="208,190 188,184" stroke="#000000" stroke-width="2"/>
+      <polygon points="158,76 165,80 158,84" stroke="#000000"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="459" y="245">d</text>
+      <polyline fill="none" points="221,100 230,100" stroke="#000000"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="419" y="205">(12)</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="420" y="224">(11)</text>
+      <polyline fill="none" points="339,61 339,171" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="301,171 301,110" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="459" y="205">b</text>
+      <polyline fill="none" points="176,100 210,100" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="344" y="230">c  20,21</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="220" y="304">8</text>
+      <polyline fill="none" points="441,250 392,250" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="104,65 122,65" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="422" y="305">(14)</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="118" y="137">LT</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="174" y="254">(1)</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="344" y="310">g  20,21</text>
+      <polyline fill="none" points="441,310 392,310" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="362" y="113">G21</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="220" y="284">4</text>
+      <polygon fill="none" points="220,95 225,90 230,95 225,100" stroke="#000000"/>
+      <polyline fill="none" points="441,190 392,190" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="150" y="67">(4)</text>
+      <polyline fill="none" points="189,73 189,80" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="459" y="225">c</text>
+      <polyline fill="none" points="85,65 97,65" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="209,300 160,300" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="151" y="110">(5)</text>
+      <ellipse cx="176.0" cy="80.5" rx="3.0" ry="2.5" stroke="#000000" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="220" y="263">2</text>
+      <polygon fill="none" points="370,185 375,180 380,185 375,190" stroke="#000000"/>
+      <polyline fill="none" points="371,190 380,190" stroke="#000000"/>
+      <polyline fill="none" points="371,185 379,185" stroke="#000000"/>
+      <polyline fill="none" points="371,210 380,210" stroke="#000000"/>
+      <polygon fill="none" points="370,205 375,200 380,205 375,210" stroke="#000000"/>
+      <polyline fill="none" points="371,205 379,205" stroke="#000000"/>
+      <polyline fill="none" points="371,230 380,230" stroke="#000000"/>
+      <polygon fill="none" points="370,225 375,220 380,225 375,230" stroke="#000000"/>
+      <polyline fill="none" points="371,225 379,225" stroke="#000000"/>
+      <polygon fill="none" points="370,245 375,240 380,245 375,250" stroke="#000000"/>
+      <polyline fill="none" points="371,245 379,245" stroke="#000000"/>
+      <polyline fill="none" points="371,250 380,250" stroke="#000000"/>
+      <polyline fill="none" points="371,265 379,265" stroke="#000000"/>
+      <polyline fill="none" points="371,270 380,270" stroke="#000000"/>
+      <polygon fill="none" points="370,265 375,260 380,265 375,270" stroke="#000000"/>
+      <polyline fill="none" points="371,285 379,285" stroke="#000000"/>
+      <polygon fill="none" points="370,285 375,280 380,285 375,290" stroke="#000000"/>
+      <polyline fill="none" points="371,290 380,290" stroke="#000000"/>
+      <polygon fill="none" points="370,305 375,300 380,305 375,310" stroke="#000000"/>
+      <polyline fill="none" points="371,305 379,305" stroke="#000000"/>
+      <polyline fill="none" points="371,310 380,310" stroke="#000000"/>
+      <circ-port height="8" pin="200,240" width="8" x="156" y="236"/>
+      <circ-port height="8" pin="200,400" width="8" x="156" y="256"/>
+      <circ-port height="8" pin="200,540" width="8" x="156" y="276"/>
+      <circ-port height="8" pin="200,700" width="8" x="156" y="296"/>
+      <circ-port height="8" pin="200,850" width="8" x="136" y="76"/>
+      <circ-port height="8" pin="200,1050" width="8" x="136" y="136"/>
+      <circ-port height="8" pin="200,1190" width="8" x="136" y="116"/>
+      <circ-port height="10" pin="1130,170" width="10" x="435" y="185"/>
+      <circ-port height="10" pin="1130,380" width="10" x="435" y="205"/>
+      <circ-port height="10" pin="1130,550" width="10" x="435" y="225"/>
+      <circ-port height="10" pin="1130,730" width="10" x="435" y="245"/>
+      <circ-port height="10" pin="1130,880" width="10" x="435" y="265"/>
+      <circ-port height="10" pin="1130,1050" width="10" x="435" y="285"/>
+      <circ-port height="10" pin="1130,1220" width="10" x="435" y="305"/>
+      <circ-anchor facing="east" height="6" width="6" x="437" y="187"/>
+    </appear>
+    <wire from="(400,920)" to="(400,1040)"/>
+    <wire from="(840,190)" to="(940,190)"/>
+    <wire from="(710,400)" to="(790,400)"/>
+    <wire from="(730,1070)" to="(730,1120)"/>
+    <wire from="(670,1030)" to="(670,1190)"/>
+    <wire from="(710,750)" to="(710,820)"/>
+    <wire from="(840,980)" to="(840,1030)"/>
+    <wire from="(380,560)" to="(400,560)"/>
+    <wire from="(490,620)" to="(710,620)"/>
+    <wire from="(400,1040)" to="(770,1040)"/>
+    <wire from="(840,1070)" to="(940,1070)"/>
+    <wire from="(200,540)" to="(320,540)"/>
+    <wire from="(770,1040)" to="(770,1140)"/>
+    <wire from="(840,900)" to="(940,900)"/>
+    <wire from="(280,280)" to="(320,280)"/>
+    <wire from="(1000,550)" to="(1130,550)"/>
+    <wire from="(710,930)" to="(790,930)"/>
+    <wire from="(400,700)" to="(770,700)"/>
+    <wire from="(1000,380)" to="(1130,380)"/>
+    <wire from="(690,890)" to="(690,970)"/>
+    <wire from="(670,800)" to="(670,1000)"/>
+    <wire from="(280,280)" to="(280,440)"/>
+    <wire from="(730,1010)" to="(730,1070)"/>
+    <wire from="(670,800)" to="(790,800)"/>
+    <wire from="(710,750)" to="(790,750)"/>
+    <wire from="(400,320)" to="(430,320)"/>
+    <wire from="(840,570)" to="(940,570)"/>
+    <wire from="(650,430)" to="(790,430)"/>
+    <wire from="(650,150)" to="(650,260)"/>
+    <wire from="(280,940)" to="(330,940)"/>
+    <wire from="(770,1270)" to="(790,1270)"/>
+    <wire from="(730,610)" to="(790,610)"/>
+    <wire from="(630,360)" to="(790,360)"/>
+    <wire from="(410,640)" to="(430,640)"/>
+    <wire from="(840,360)" to="(940,360)"/>
+    <wire from="(630,220)" to="(790,220)"/>
+    <wire from="(690,650)" to="(690,730)"/>
+    <wire from="(690,730)" to="(690,890)"/>
+    <wire from="(840,750)" to="(940,750)"/>
+    <wire from="(710,1210)" to="(790,1210)"/>
+    <wire from="(670,590)" to="(670,800)"/>
+    <wire from="(770,700)" to="(770,1040)"/>
+    <wire from="(770,680)" to="(770,700)"/>
+    <wire from="(690,230)" to="(690,380)"/>
+    <wire from="(650,710)" to="(790,710)"/>
+    <wire from="(400,470)" to="(430,470)"/>
+    <wire from="(350,700)" to="(400,700)"/>
+    <wire from="(770,260)" to="(770,680)"/>
+    <wire from="(410,640)" to="(410,790)"/>
+    <wire from="(390,920)" to="(390,1120)"/>
+    <wire from="(840,1050)" to="(940,1050)"/>
+    <wire from="(400,260)" to="(400,320)"/>
+    <wire from="(690,380)" to="(790,380)"/>
+    <wire from="(670,290)" to="(790,290)"/>
+    <wire from="(400,420)" to="(400,470)"/>
+    <wire from="(710,500)" to="(710,620)"/>
+    <wire from="(200,850)" to="(200,860)"/>
+    <wire from="(840,710)" to="(940,710)"/>
+    <wire from="(440,940)" to="(650,940)"/>
+    <wire from="(840,570)" to="(840,590)"/>
+    <wire from="(730,1250)" to="(790,1250)"/>
+    <wire from="(840,380)" to="(940,380)"/>
+    <wire from="(750,120)" to="(790,120)"/>
+    <wire from="(690,380)" to="(690,420)"/>
+    <wire from="(690,230)" to="(790,230)"/>
+    <wire from="(730,610)" to="(730,670)"/>
+    <wire from="(630,1100)" to="(790,1100)"/>
+    <wire from="(670,1000)" to="(670,1030)"/>
+    <wire from="(630,780)" to="(790,780)"/>
+    <wire from="(840,170)" to="(940,170)"/>
+    <wire from="(380,920)" to="(380,940)"/>
+    <wire from="(730,250)" to="(790,250)"/>
+    <wire from="(650,150)" to="(790,150)"/>
+    <wire from="(840,400)" to="(840,450)"/>
+    <wire from="(690,890)" to="(790,890)"/>
+    <wire from="(200,1190)" to="(390,1190)"/>
+    <wire from="(630,220)" to="(630,340)"/>
+    <wire from="(820,860)" to="(940,860)"/>
+    <wire from="(710,820)" to="(710,930)"/>
+    <wire from="(840,520)" to="(840,530)"/>
+    <wire from="(630,1100)" to="(630,1170)"/>
+    <wire from="(690,420)" to="(690,650)"/>
+    <wire from="(750,540)" to="(750,770)"/>
+    <wire from="(410,360)" to="(430,360)"/>
+    <wire from="(380,260)" to="(400,260)"/>
+    <wire from="(670,1000)" to="(790,1000)"/>
+    <wire from="(1000,730)" to="(1130,730)"/>
+    <wire from="(840,100)" to="(840,150)"/>
+    <wire from="(690,650)" to="(790,650)"/>
+    <wire from="(390,1150)" to="(390,1190)"/>
+    <wire from="(410,360)" to="(410,510)"/>
+    <wire from="(670,1190)" to="(790,1190)"/>
+    <wire from="(410,510)" to="(410,640)"/>
+    <wire from="(750,120)" to="(750,330)"/>
+    <wire from="(400,560)" to="(730,560)"/>
+    <wire from="(630,780)" to="(630,860)"/>
+    <wire from="(690,170)" to="(690,230)"/>
+    <wire from="(840,1200)" to="(940,1200)"/>
+    <wire from="(200,240)" to="(320,240)"/>
+    <wire from="(1000,1220)" to="(1130,1220)"/>
+    <wire from="(710,470)" to="(710,500)"/>
+    <wire from="(650,570)" to="(790,570)"/>
+    <wire from="(400,260)" to="(650,260)"/>
+    <wire from="(630,1170)" to="(790,1170)"/>
+    <wire from="(1000,880)" to="(1130,880)"/>
+    <wire from="(710,930)" to="(710,1210)"/>
+    <wire from="(730,250)" to="(730,560)"/>
+    <wire from="(630,860)" to="(630,960)"/>
+    <wire from="(770,1140)" to="(770,1270)"/>
+    <wire from="(410,510)" to="(430,510)"/>
+    <wire from="(280,1280)" to="(790,1280)"/>
+    <wire from="(430,970)" to="(690,970)"/>
+    <wire from="(670,80)" to="(670,290)"/>
+    <wire from="(670,590)" to="(790,590)"/>
+    <wire from="(490,490)" to="(670,490)"/>
+    <wire from="(630,340)" to="(630,360)"/>
+    <wire from="(630,640)" to="(790,640)"/>
+    <wire from="(770,260)" to="(790,260)"/>
+    <wire from="(420,1010)" to="(730,1010)"/>
+    <wire from="(400,750)" to="(430,750)"/>
+    <wire from="(200,850)" to="(410,850)"/>
+    <wire from="(410,790)" to="(430,790)"/>
+    <wire from="(710,620)" to="(710,750)"/>
+    <wire from="(710,470)" to="(790,470)"/>
+    <wire from="(200,700)" to="(320,700)"/>
+    <wire from="(840,1190)" to="(840,1200)"/>
+    <wire from="(1000,1050)" to="(1130,1050)"/>
+    <wire from="(840,190)" to="(840,240)"/>
+    <wire from="(400,700)" to="(400,750)"/>
+    <wire from="(410,840)" to="(410,850)"/>
+    <wire from="(750,540)" to="(790,540)"/>
+    <wire from="(200,400)" to="(320,400)"/>
+    <wire from="(840,1240)" to="(840,1260)"/>
+    <wire from="(840,750)" to="(840,800)"/>
+    <wire from="(330,940)" to="(380,940)"/>
+    <wire from="(840,310)" to="(840,360)"/>
+    <wire from="(730,1120)" to="(730,1250)"/>
+    <wire from="(840,730)" to="(940,730)"/>
+    <wire from="(710,820)" to="(790,820)"/>
+    <wire from="(840,900)" to="(840,910)"/>
+    <wire from="(840,400)" to="(940,400)"/>
+    <wire from="(490,340)" to="(630,340)"/>
+    <wire from="(200,1050)" to="(330,1050)"/>
+    <wire from="(630,960)" to="(790,960)"/>
+    <wire from="(400,420)" to="(690,420)"/>
+    <wire from="(650,430)" to="(650,570)"/>
+    <wire from="(280,440)" to="(280,580)"/>
+    <wire from="(670,450)" to="(670,490)"/>
+    <wire from="(490,770)" to="(750,770)"/>
+    <wire from="(630,640)" to="(630,780)"/>
+    <wire from="(670,1030)" to="(790,1030)"/>
+    <wire from="(630,960)" to="(630,1100)"/>
+    <wire from="(630,860)" to="(800,860)"/>
+    <wire from="(750,330)" to="(790,330)"/>
+    <wire from="(670,290)" to="(670,450)"/>
+    <wire from="(670,490)" to="(670,590)"/>
+    <wire from="(770,680)" to="(790,680)"/>
+    <wire from="(840,1240)" to="(940,1240)"/>
+    <wire from="(690,730)" to="(790,730)"/>
+    <wire from="(770,1140)" to="(790,1140)"/>
+    <wire from="(840,1070)" to="(840,1120)"/>
+    <wire from="(440,920)" to="(440,940)"/>
+    <wire from="(330,940)" to="(330,970)"/>
+    <wire from="(400,560)" to="(400,600)"/>
+    <wire from="(280,580)" to="(320,580)"/>
+    <wire from="(710,190)" to="(710,400)"/>
+    <wire from="(430,920)" to="(430,970)"/>
+    <wire from="(410,790)" to="(410,820)"/>
+    <wire from="(650,710)" to="(650,940)"/>
+    <wire from="(690,170)" to="(790,170)"/>
+    <wire from="(410,850)" to="(410,860)"/>
+    <wire from="(750,330)" to="(750,540)"/>
+    <wire from="(380,420)" to="(400,420)"/>
+    <wire from="(330,990)" to="(330,1050)"/>
+    <wire from="(400,600)" to="(430,600)"/>
+    <wire from="(710,500)" to="(790,500)"/>
+    <wire from="(690,970)" to="(690,1240)"/>
+    <wire from="(730,670)" to="(730,1010)"/>
+    <wire from="(840,1030)" to="(940,1030)"/>
+    <wire from="(420,920)" to="(420,1010)"/>
+    <wire from="(280,940)" to="(280,1280)"/>
+    <wire from="(670,450)" to="(790,450)"/>
+    <wire from="(280,580)" to="(280,940)"/>
+    <wire from="(730,560)" to="(730,610)"/>
+    <wire from="(730,670)" to="(790,670)"/>
+    <wire from="(630,360)" to="(630,640)"/>
+    <wire from="(670,80)" to="(790,80)"/>
+    <wire from="(730,1070)" to="(790,1070)"/>
+    <wire from="(710,400)" to="(710,470)"/>
+    <wire from="(690,1240)" to="(790,1240)"/>
+    <wire from="(840,530)" to="(940,530)"/>
+    <wire from="(710,190)" to="(790,190)"/>
+    <wire from="(840,660)" to="(840,710)"/>
+    <wire from="(280,440)" to="(320,440)"/>
+    <wire from="(840,150)" to="(940,150)"/>
+    <wire from="(650,260)" to="(650,430)"/>
+    <wire from="(650,570)" to="(650,710)"/>
+    <wire from="(730,1120)" to="(790,1120)"/>
+    <wire from="(1000,170)" to="(1130,170)"/>
+    <comp lib="0" loc="(1130,880)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Output e"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(840,800)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(490,770)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1130,1050)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Output f"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(1000,170)" name="AND Gate">
+      <a name="inputs" val="3"/>
+      <a name="negate0" val="true"/>
+      <a name="negate1" val="true"/>
+      <a name="negate2" val="true"/>
+    </comp>
+    <comp lib="1" loc="(820,860)" name="Buffer"/>
+    <comp lib="0" loc="(1130,1220)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Output g"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(840,1120)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(1000,380)" name="AND Gate">
+      <a name="inputs" val="3"/>
+      <a name="negate0" val="true"/>
+      <a name="negate1" val="true"/>
+      <a name="negate2" val="true"/>
+    </comp>
+    <comp lib="0" loc="(200,400)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Input B"/>
+    </comp>
+    <comp lib="1" loc="(490,620)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(840,910)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(840,1260)" name="AND Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(840,310)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1130,730)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Output d"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(1000,880)" name="AND Gate">
+      <a name="inputs" val="2"/>
+      <a name="negate0" val="true"/>
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="1" loc="(380,420)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(840,1190)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(840,980)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(200,700)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Input D"/>
+    </comp>
+    <comp lib="0" loc="(200,540)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Input C"/>
+    </comp>
+    <comp lib="1" loc="(350,700)" name="NOT Gate"/>
+    <comp lib="0" loc="(1130,380)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Output b"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(840,730)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(330,970)" name="Buffer">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(1000,730)" name="AND Gate">
+      <a name="inputs" val="3"/>
+      <a name="negate0" val="true"/>
+      <a name="negate1" val="true"/>
+      <a name="negate2" val="true"/>
+    </comp>
+    <comp lib="1" loc="(1000,1050)" name="AND Gate">
+      <a name="inputs" val="3"/>
+      <a name="negate0" val="true"/>
+      <a name="negate1" val="true"/>
+      <a name="negate2" val="true"/>
+    </comp>
+    <comp lib="1" loc="(1000,550)" name="AND Gate">
+      <a name="inputs" val="2"/>
+      <a name="negate0" val="true"/>
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="1" loc="(840,450)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(200,240)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Input A"/>
+    </comp>
+    <comp lib="1" loc="(840,590)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(380,260)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(840,240)" name="AND Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(1000,1220)" name="AND Gate">
+      <a name="inputs" val="2"/>
+      <a name="negate0" val="true"/>
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="1" loc="(380,560)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(200,850)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="BI / RBO"/>
+    </comp>
+    <comp lib="1" loc="(840,100)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(390,1120)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(490,340)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1130,550)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Output c"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(840,660)" name="AND Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(840,1050)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(840,170)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(200,1190)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="RBI"/>
+    </comp>
+    <comp lib="1" loc="(410,820)" name="Buffer">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(200,1050)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="LT"/>
+    </comp>
+    <comp lib="1" loc="(840,520)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(490,490)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1130,170)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Output a"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(840,380)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(410,860)" name="NAND Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="6"/>
+    </comp>
+  </circuit>
+</project>
